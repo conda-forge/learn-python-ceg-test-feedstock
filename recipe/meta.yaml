@@ -1,5 +1,5 @@
 {% set name = "learn-python-ceg-test" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/learn_python_ceg_test-{{ version }}.tar.gz
-  sha256: afb3dfce422d1315869b066101d807ab48d4cfdb099e415df5d246482459b0c5
+  sha256: 3321fac11b921d46a11d13ab38a6137b9c929b8c838dfdc19b97746715db412e
 
 build:
   noarch: python
